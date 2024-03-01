@@ -13,7 +13,7 @@ export default function Login() {
     uri: "https://imgs.search.brave.com/NNd9gqPSrJjKMn4FFOAz-fUsD-4YF0Ng9dVOPwWDu40/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8x/MS8xMC8wNC80Ny91/c2VyLTI5MzUzNzNf/XzM0MC5wbmc",
   };
   const imgB = {
-    uri: "https://imgs.search.brave.com/qomZtz1g8oyQCGku2s8Xc_d44MSlnwQNXWtRjj3iHa0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzExMS83NDUv/MTkzL3JlYWN0anMt/amF2YXNjcmlwdC1w/cm9ncmFtbWluZy1w/cm9ncmFtbWluZy1s/YW5ndWFnZS1oZC13/YWxscGFwZXItcHJl/dmlldy5qcGc",
+    uri: "https://imgs.search.brave.com/tuMrplV_qcBNlI9SGv52jWf1yqdUoveXzLnxtrHjeGg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/YnN0cmFjdC1kaWdp/dGFsLWdyaWQtYmxh/Y2stYmFja2dyb3Vu/ZF81Mzg3Ni05NzY0/Ny5qcGc_c2l6ZT02/MjYmZXh0PWpwZw",
   };
 
   return (

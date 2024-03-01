@@ -7,14 +7,14 @@ export const styles = StyleSheet.create({
   },
   text1: {
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 35,
     marginBottom: 20,
     color: 'white',
   },
   logo: {
-    width: 100,
-    height: 100,
-    marginBottom: 10,
+    width: 130,
+    height: 130,
+    marginBottom: 30,
     borderRadius: 100,
   },
   imageBackground: {

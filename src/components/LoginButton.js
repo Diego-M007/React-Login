@@ -8,7 +8,7 @@ export default function LoginButton() {
       onPress={() => {
         alert("botão de login pressionado");
       }}
-      color="black"
+      color="gray"
     />
   );
 }
