@@ -1,3 +1,5 @@
+// Login.js
+
 import React from "react";
 import { View } from "react-native";
 import { StatusBar } from "expo-status-bar";
@@ -18,16 +20,21 @@ export default function Login() {
 
   return (
     <View style={{flex: 1}}>
-      <LoginImageBackground source={imgB}>
-        <View style={styles.container}>
-          <View style={styles.container_login}>
-            <LoginText />
-            <LoginImage source={logo} />
-            <LoginInput placeholder="Digite seu email" secureTextEntry={false} />
-            <LoginInput placeholder="Digite sua senha" secureTextEntry={true} />
-            <LoginButton />
-            <StatusBar style="auto" />
-          </View>
+      {/* Fundo da tela com imagem de background */}
+      <LoginImageBackground source={imgB} style={styles.imageBackground}>
+        {/* Contêiner para o conteúdo do login */}
+        <View style={styles.container_login}>
+          {/* Texto de boas-vindas */}
+          <LoginText />
+          {/* Imagem do logo */}
+          <LoginImage source={logo} />
+          {/* Inputs para o email e senha */}
+          <LoginInput placeholder="Digite seu email" secureTextEntry={false} />
+          <LoginInput placeholder="Digite sua senha" secureTextEntry={true} />
+          {/* Botão de login */}
+          <LoginButton />
+          {/* Barra de status */}
+          <StatusBar style="auto" />
         </View>
       </LoginImageBackground>
     </View>
