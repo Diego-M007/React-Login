@@ -28,13 +28,14 @@ export const styles = StyleSheet.create({
   container_login: {
     justifyContent: 'center',
     alignItems: 'center',
+    flex:1,
   },
   input: {
     backgroundColor: 'white',
     width: '100%',
     height: 40,
     borderRadius: 5,
-    borderWidth: 1,
+    borderWidth: 1, 
     borderColor: 'black',
     marginBottom: 5,
     paddingLeft: 5,
