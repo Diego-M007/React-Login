@@ -1,8 +1,6 @@
 import React from 'react-native';
-import { View } from 'react-native-web';
-import LoginImageBackground from '../components/LoginImageBackground';
+import { View, ImageBackground } from 'react-native';
 import { styles } from '../styles/styles';
-import { ImageBackground } from 'react-native-web';
 
 export default function Home() {
 
