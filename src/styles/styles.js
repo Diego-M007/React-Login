@@ -41,4 +41,15 @@ export const styles = StyleSheet.create({
     paddingLeft: 5,
     fontSize: 15
   },
+  view_input: {
+    flexDirection: "row",
+  },
+  ImgInputs: {
+    height: 40,
+    width: 40,
+    backgroundColor: 'white',
+    borderRadius: '100%',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
 });

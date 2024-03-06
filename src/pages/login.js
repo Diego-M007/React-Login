@@ -8,6 +8,8 @@ import LoginButton from "../components/LoginButton";
 import LoginInput from "../components/LoginInput";
 import LoginImage from "../components/LoginImage";
 import LoginImageBackground from "../components/LoginImageBackground";
+import InputEmail from "../components/InputEmail";
+import InputPassword from "../components/InputPassword";
 import { styles } from "../styles/styles";
 
 export default function Login() {
@@ -17,6 +19,13 @@ export default function Login() {
   const imgB = {
     uri: "https://imgs.search.brave.com/tuMrplV_qcBNlI9SGv52jWf1yqdUoveXzLnxtrHjeGg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/YnN0cmFjdC1kaWdp/dGFsLWdyaWQtYmxh/Y2stYmFja2dyb3Vu/ZF81Mzg3Ni05NzY0/Ny5qcGc_c2l6ZT02/MjYmZXh0PWpwZw",
   };
+  const ImgInputs_Email = {
+    uri: "https://imgs.search.brave.com/r-hZyDlrdmnIieMckQOtUCPogkiFNzAGeh6dSqKqqbc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8zMDMzLzMwMzMx/NDMucG5n"
+  };
+  const ImgInputs_Password = {
+    uri: "https://imgs.search.brave.com/516f_z_ji9uojpyC30VOmTW4Ts4IZ4abl236wZyNWgI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xMTE5MC8xMTE5/MDA3OS5wbmc"
+  }
+
 
   return (
     <View style={{flex: 1}}>
@@ -29,12 +38,13 @@ export default function Login() {
           {/* Imagem do logo */}
           <LoginImage source={logo} />
           {/* Inputs para o email e senha */}
-          <LoginInput placeholder="Digite seu email" secureTextEntry={false} />
-          <LoginInput placeholder="Digite sua senha" secureTextEntry={true} />
+          <InputEmail />
+          < InputPassword/>
           {/* Botão de login */}
           <LoginButton />
           {/* Barra de status */}
           <StatusBar style="auto" />
+  
         </View>
       </LoginImageBackground>
     </View>
