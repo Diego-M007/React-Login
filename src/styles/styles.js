@@ -47,9 +47,25 @@ export const styles = StyleSheet.create({
   ImgInputs: {
     height: 40,
     width: 40,
+  }
+    container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  image: {
+    width: 300,
+    height: 300,
+    borderRadius: 150, // Torna a imagem redonda
+    marginBottom: 20,
+  },
+  text: {
+    fontSize: 16,
+    textAlign: 'center',
+    paddingHorizontal: 20,
+  },
     backgroundColor: 'white',
     borderRadius: '100%',
     justifyContent: 'center',
     alignItems: 'center'
-  }
 });
